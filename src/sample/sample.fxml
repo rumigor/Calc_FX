@@ -26,24 +26,24 @@
 
     <bottom>
         <GridPane>
-            <Button fx:id="btn1" text="1" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#addText"/>
-            <Button fx:id="btn2" text="2" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#addText"/>
-            <Button fx:id="btn3" text="3" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#addText"/>
-            <Button fx:id="btn4" text="4" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#addText"/>
-            <Button fx:id="btn5" text="5" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#addText"/>
-            <Button fx:id="btn6" text="6" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#addText"/>
-            <Button fx:id="btn7" text="7" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#addText"/>
-            <Button fx:id="btn8" text="8" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#addText"/>
-            <Button fx:id="btn9" text="9" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#addText"/>
-            <Button fx:id="btn0" text="0" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#addText"/>
-            <Button fx:id="btnComma" text="." GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#addText"/>
-            <Button fx:id="btnPlus" text="+" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#addText"/>
-            <Button fx:id="btnMinus" text="-" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#addText"/>
-            <Button fx:id="btnMultiply" text="*" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#addText"/>
-            <Button fx:id="btnDivision" text="/" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#addText"/>
-            <Button fx:id="btnSQRT" text="SQRT" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#addText"/>
-            <Button fx:id="btnEquation" text="=" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#addText"/>
-            <Button fx:id="btnClear" text="/" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#addText"/>
+            <Button fx:id="btn1" text="1" GridPane.rowIndex="0" GridPane.columnIndex="0" onAction="#add1"/>
+            <Button fx:id="btn2" text="2" GridPane.rowIndex="0" GridPane.columnIndex="1" onAction="#add2"/>
+            <Button fx:id="btn3" text="3" GridPane.rowIndex="0" GridPane.columnIndex="2" onAction="#add3"/>
+            <Button fx:id="btn4" text="4" GridPane.rowIndex="0" GridPane.columnIndex="3" onAction="#add4"/>
+            <Button fx:id="btn5" text="5" GridPane.rowIndex="1" GridPane.columnIndex="0" onAction="#add5"/>
+            <Button fx:id="btn6" text="6" GridPane.rowIndex="1" GridPane.columnIndex="1" onAction="#add6"/>
+            <Button fx:id="btn7" text="7" GridPane.rowIndex="1" GridPane.columnIndex="2" onAction="#add7"/>
+            <Button fx:id="btn8" text="8" GridPane.rowIndex="1" GridPane.columnIndex="3" onAction="#add8"/>
+            <Button fx:id="btn9" text="9" GridPane.rowIndex="2" GridPane.columnIndex="0" onAction="#add9"/>
+            <Button fx:id="btn0" text="0" GridPane.rowIndex="2" GridPane.columnIndex="1" onAction="#add0"/>
+            <Button fx:id="btnComma" text="." GridPane.rowIndex="2" GridPane.columnIndex="2" onAction="#addComma"/>
+            <Button fx:id="btnPlus" text="+" GridPane.rowIndex="2" GridPane.columnIndex="3" onAction="#addPlus"/>
+            <Button fx:id="btnMinus" text="-" GridPane.rowIndex="3" GridPane.columnIndex="0" onAction="#addMinus"/>
+            <Button fx:id="btnMultiply" text="X" GridPane.rowIndex="3" GridPane.columnIndex="1" onAction="#addMultiply"/>
+            <Button fx:id="btnDivision" text="/" GridPane.rowIndex="3" GridPane.columnIndex="2" onAction="#addDivision"/>
+            <Button fx:id="btnSQRT" text="SQRT" GridPane.rowIndex="3" GridPane.columnIndex="3" onAction="#getSQRT"/>
+            <Button fx:id="btnEquation" text="=" GridPane.rowIndex="4" GridPane.columnIndex="0" onAction="#getResult"/>
+            <Button fx:id="btnClear" text="Очистить" GridPane.rowIndex="4" GridPane.columnIndex="1" onAction="#clearTextArea"/>
 
 
         </GridPane>
